@@ -22,6 +22,12 @@ packer.startup(function()
     use 'hrsh7th/nvim-cmp'
     use 'saadparwaiz1/cmp_luasnip'
     use 'L3MON4D3/LuaSnip'
+
+    use {
+      'nvim-telescope/telescope.nvim',
+      requires = { {'nvim-lua/plenary.nvim'} }
+    }
+
     use {
     'kyazdani42/nvim-tree.lua',
     requires = {

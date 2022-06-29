@@ -1,5 +1,6 @@
 require('./pkgs/lsp-installer')
 require('./pkgs/tree-sitter')
+require('./pkgs/telescope')
 
 require("nvim-tree").setup({
     sort_by = "case_sensitive",
