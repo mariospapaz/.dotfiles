@@ -1,5 +1,6 @@
 -- :help options
-vim.cmd('colorscheme molokai')
+-- Theme disabled, dont want it anymore
+-- vim.cmd('colorscheme molokai')
 
 local options = {
     backup = false, -- creates a backup file
