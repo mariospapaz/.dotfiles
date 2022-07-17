@@ -16,8 +16,6 @@ packer.startup(function()
     
     use 'nvim-treesitter/nvim-treesitter'
     
-    use 'neovim/nvim-lspconfig'
-    
     use 'williamboman/nvim-lsp-installer'
     
     use 'hrsh7th/cmp-nvim-lsp'
@@ -35,6 +33,8 @@ packer.startup(function()
     use 'L3MON4D3/LuaSnip'
 
     use 'andweeb/presence.nvim'
+
+    use 'neovim/nvim-lspconfig' -- Configurations for Nvim LSP
 
     use {
       'nvim-telescope/telescope.nvim',

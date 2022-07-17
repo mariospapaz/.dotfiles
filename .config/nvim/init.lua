@@ -10,4 +10,4 @@
 
 require("io/options")
 require("io/keybinds")
-require("plugins")
+require("plugins") 

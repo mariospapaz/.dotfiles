@@ -4,3 +4,6 @@ require('./pkgs/telescope')
 require('./pkgs/nvim-tree')
 require('./pkgs/cmp')
 require('./pkgs/presence')
+require('./pkgs/lsp-config')
+require('./pkgs/lsp-config').setup()
+
