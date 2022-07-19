@@ -6,4 +6,5 @@ require('./pkgs/cmp')
 require('./pkgs/presence')
 require('./pkgs/lsp-config')
 require('./pkgs/lsp-config').setup()
-
+require('./pkgs/alpha')
+require('./pkgs/project')

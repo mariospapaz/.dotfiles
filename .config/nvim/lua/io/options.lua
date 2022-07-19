@@ -1,6 +1,15 @@
--- :help options
--- Theme disabled, dont want it anymore
--- vim.cmd('colorscheme molokai')
+
+-- [
+-- local colorscheme = 'melange'
+--local colorscheme_ok, _ = pcall(require, 'colorscheme ' .. colorscheme)
+
+--if not colorscheme_ok then
+--    vim.notify('colorscheme ' .. colorscheme .. ' not found!')
+--    return
+--end
+
+vim.cmd("colorscheme melange")
+
 
 local options = {
     backup = false, -- creates a backup file
@@ -15,6 +24,7 @@ local options = {
     pumheight = 10, -- pop up menu height
     showmode = false, -- we don't need to see things like -- INSERT -- anymore
     showtabline = 2, -- always show tabs
+    termguicolors = true, 
     smartcase = true, -- smart case
     smartindent = true, -- make indenting smarter again
     splitbelow = true, -- force all horizontal splits to go below current window

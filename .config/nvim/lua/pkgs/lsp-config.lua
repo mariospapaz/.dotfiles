@@ -38,7 +38,7 @@ local function lsp_keymaps(bufnr)
     buf_keymap('n', '<C-k>', vim.lsp.buf.signature_help)
     buf_keymap('n', '<leader>rn', vim.lsp.buf.rename)
     buf_keymap('n', 'gr', vim.lsp.buf.references)
-
+    
     buf_keymap('n', '[d', function()
         vim.diagnostic.goto_prev({ border = 'rounded' })
     end)
