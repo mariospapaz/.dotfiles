@@ -12,7 +12,7 @@ Dependencies: <br>
 
 ```shell
 Rust $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh 
-Go $ yay -S go npm luarocks ruby jdk-openjdk php julia
+Other languages: $ yay -S python3 go npm luarocks ruby jdk-openjdk php julia
 ```
 
 ( I am not sure why it needs php or julia, I am giving what `:checkhealth` says)
