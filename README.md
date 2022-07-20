@@ -1,7 +1,8 @@
 # Welcome to my dotfiles
 
 ## Basic instructions 
-You need to install Hack Mono from my `/Files`
+- You need to install Hack Mono from my `/Files`
+- I suggest installing Alacritty
 
 ## Neovim
 It will not work out of the box, you need to do some steps.
