@@ -5,13 +5,17 @@
 - I suggest installing Alacritty
 
 ## Neovim
-It will not work out of the box, you need to do some steps.
-For your own good you must self compile all the programming languages you need for best perfomance.
+```
+$ yay -S neovim 
+```
+It will not work out of the box, you need to do some steps. <br>
+For your own good you must self compile all the programming languages you need for optimized performance <br>
 I suggest yay if you're lazy
 
 Dependencies: <br>
 
 ```shell
+Tools $ yay -S wget curl ripgrep git` 
 Rust $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh 
 Other languages: $ yay -S python3 go npm luarocks ruby jdk-openjdk php julia
 ```
