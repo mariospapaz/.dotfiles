@@ -6,7 +6,7 @@ end
 
 tree_sitter.setup {
   ensure_installed = "all", -- Only use parsers that are maintained
-
+  ignore_install = { "phpdoc", "tree-sitter-phpdoc" },
   highlight = { -- enable highlighting
     enable = true, 
   } ,
