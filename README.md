@@ -15,8 +15,8 @@ Dependencies: <br>
 Rust $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh 
 Other languages: $ yay -S python3 go npm luarocks ruby jdk-openjdk php julia
 ```
-( I am not sure why it needs php or julia, I am giving what `:checkhealth` says) <br>
-After everything is installe run `:PackerSync`, once it's done reboot neovim
+
+After everything is installed run `:PackerSync`, once it's done reboot neovim
 
 
 ![Screenshot 2022-07-19 at 10 33 28 PM](https://user-images.githubusercontent.com/30930688/179842099-584f9ecd-cba3-486e-9814-aae06f32ad40.png)
