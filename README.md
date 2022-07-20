@@ -15,7 +15,7 @@ I suggest yay if you're lazy
 Dependencies: <br>
 
 ```shell
-Tools $ yay -S wget curl ripgrep git` 
+Tools $ yay -S wget curl ripgrep git
 Rust $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh 
 Other languages: $ yay -S python3 go npm luarocks ruby jdk-openjdk php julia
 ```
